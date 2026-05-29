@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "http://localhost:4000/api/contacto"
+const API = "https://consultorio-api-kappa.vercel.app/api/contacto"
 
 const enviarMensaje = async (data) => await axios.post(API, data)
 

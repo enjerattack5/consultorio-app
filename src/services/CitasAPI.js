@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "http://localhost:4000/api/citas"
+const API = "https://consultorio-api-kappa.vercel.app/api/citas"
 
 const obtenerCitas = async () => await axios.get(API)
 const crearCita = async (data) => await axios.post(API, data)

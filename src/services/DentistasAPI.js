@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "http://localhost:4000/api/dentistas"
+const API = "https://consultorio-api-kappa.vercel.app/api/dentistas"
 
 const obtenerDentistas = async () => await axios.get(API)
 const crearDentista = async (data) => await axios.post(API, data)
